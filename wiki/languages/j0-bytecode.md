@@ -17,8 +17,8 @@ with a heap region for objects.
 
 - Bytes 0–7: ASCII `Jzero!!\0` magic. Searched for at load time;
   located via `find()` so a self-execution shebang can precede it.
-- Bytes 8–15: entry-point operand (giving the byte offset of the first
-  instruction in instruction-units; the loader multiplies by 8).
+- Bytes 8–15: entry-point operand (index of the first instruction in
+  8-byte instruction units; the loader multiplies by 8 to get a byte offset).
 
 ## Instruction layout
 
