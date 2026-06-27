@@ -15,10 +15,10 @@ and watch tokens scroll by.
 
 ## Children
 
-- [Overview](/wiki/chapters/ch03-lexical-analysis/overview.md)
-- [Concepts](/wiki/chapters/ch03-lexical-analysis/concepts.md)
-- [Key files](/wiki/chapters/ch03-lexical-analysis/key-files.md)
-- [Deep dive: `javalex.l`](/wiki/chapters/ch03-lexical-analysis/deep-dive.md)
-- [Exercises](/wiki/chapters/ch03-lexical-analysis/exercises/index.md)
+- [Overview](./overview.md)
+- [Concepts](./concepts.md)
+- [Key files](./key-files.md)
+- [Deep dive: `javalex.l`](./deep-dive.md)
+- [Exercises](./exercises/index.md)
   - [Cookbook (positive)](/wiki/chapters/ch03-lexical-analysis/exercises/cookbook.md)
   - [Edge cases (negative)](/wiki/chapters/ch03-lexical-analysis/exercises/edge-cases.md)
