@@ -32,7 +32,7 @@ NonTerm : RHS         { semantic action $$ = ... ; }
 
 ## Build artifacts
 
-In this repo, Java Yacc output is `Parser.java` (Ch 4) or `parser.java` (later), plus `parserVal.java` (and `parserTokens.java` in Ch 4).
+In this repo, checked-in Java Yacc output includes `/ch4/Parser.java`, `/ch4/parserTokens.java`, `/ch4/parserVal.java`, plus `/ch5/parser.java` and `/ch9/parser.java` (both with `parserVal.java`); later chapters keep `j0gram.y` but don’t check in the generated Java parser sources.
 Iyacc emits `j0gram.icn` / `j0gram_tab.icn` for Unicon.
 
 ## Idioms enforced
