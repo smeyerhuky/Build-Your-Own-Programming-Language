@@ -47,7 +47,6 @@ Ordering is intentional:
    "<="                   { return j0.scan(parser.LESSTHANOREQUAL);}
    ```
    (In this repo, `"<"` is listed before `"<="` in `javalex.l`.)
-   characters.
 4. Identifier rule `{id}` — must come **after** every keyword.
 5. Numeric and string literal rules.
 6. Catch-all `.` that calls `j0.lexErr` for unrecognized characters.
