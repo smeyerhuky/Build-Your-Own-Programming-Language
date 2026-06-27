@@ -17,6 +17,6 @@ patterns.
   statement, an opcode).
 - [Chain-of-thought templates](./chain-of-thought-templates.md) —
   for asking an LLM to *debug* something the compiler does wrong.
-- [Negative-example catalog](/wiki/prompting/negative-example-catalog.md) —
+- [Negative-example catalog](./negative-example-catalog.md) —
   cross-chapter index of edge cases, tagged so you can pull a
   themed bundle ("all shift/reduce", "all stack-frame bugs").
