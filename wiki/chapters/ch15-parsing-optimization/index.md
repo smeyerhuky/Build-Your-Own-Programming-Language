@@ -13,6 +13,6 @@ designs one. No code in the repo.
 
 ## Children
 
-- [Overview](/wiki/chapters/ch15-parsing-optimization/overview.md)
-- [Concepts](/wiki/chapters/ch15-parsing-optimization/concepts.md)
-- [Exercises](/wiki/chapters/ch15-parsing-optimization/exercises/index.md)
+- [Overview](./overview.md)
+- [Concepts](./concepts.md)
+- [Exercises](./exercises/index.md)
