@@ -8,6 +8,6 @@ timestamp: 2026-06-27T00:00:00Z
 
 # Languages
 
-- [J0](/wiki/languages/j0.md) — the source language being compiled.
-- [J0 bytecode](/wiki/languages/j0-bytecode.md) — the stack-machine ISA the bytecode back-ends target.
-- [x86-64](/wiki/languages/x86-64.md) — the native target surface used by Ch 13.
+- [J0](./j0.md) — the source language being compiled.
+- [J0 bytecode](./j0-bytecode.md) — the stack-machine ISA the bytecode back-ends target.
+- [x86-64](./x86-64.md) — the native target surface used by Ch 13.
