@@ -42,11 +42,11 @@ Ordering is intentional:
    "double"               { return j0.scan(parser.DOUBLE); }
    ...
    ```
-3. Multi-character operators before their single-character prefixes:
+3. Multi-character operators can be listed adjacent to their single-character prefixes; longest-match ensures `<=` is recognized even if `"<"` appears before it:
    ```
    "<="                   { return j0.scan(parser.LESSTHANOREQUAL);}
    ```
-   listed *after* `"<"`, but longest-match still picks `<=` for two
+   (In this repo, `"<"` is listed before `"<="` in `javalex.l`.)
    characters.
 4. Identifier rule `{id}` — must come **after** every keyword.
 5. Numeric and string literal rules.
