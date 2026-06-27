@@ -21,8 +21,7 @@ and built-in sequence types.
 
 ## Build
 
-Each chapter has a `makefile` Unicon target that runs `unicon -s
-*.icn` after Uflex/Iyacc regenerate the lexer/parser.
+Each chapter has a `makefile` Unicon target that runs `unicon -s *.icn` after Uflex/Iyacc regenerate the lexer/parser.
 
 ## File-naming pattern
 
