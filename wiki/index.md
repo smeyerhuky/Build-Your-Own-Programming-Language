@@ -18,21 +18,21 @@ prompts for compiler-construction tasks.
 ## How to read this bundle (progressive disclosure)
 
 1. Start here.
-2. Open [`/wiki/chapters/index.md`](/wiki/chapters/index.md) to see the
+2. Open [`chapters/index.md`](./chapters/index.md) to see the
    17-chapter table. Each row links to one chapter folder.
 3. Inside a full chapter folder, the entry point is `index.md`. From
    there you can descend into `overview.md`, `concepts.md`,
    `key-files.md`, `deep-dive.md`, or `exercises/`.
 4. Cross-chapter ideas (lexing, AST, type systems, VMs) live under
-   [`/wiki/concepts/`](/wiki/concepts/index.md). Chapter pages link
+   [`concepts/`](./concepts/index.md). Chapter pages link
    there so you can pull a concept page without descending the chapter
    tree.
 5. Languages and tools the course depends on live under
-   [`/wiki/languages/`](/wiki/languages/index.md) and
-   [`/wiki/tools/`](/wiki/tools/index.md).
+   [`languages/`](./languages/index.md) and
+   [`tools/`](./tools/index.md).
 6. The LLM-prompting harness — few-shot and chain-of-thought templates,
    and an aggregated catalog of negative examples across chapters —
-   lives under [`/wiki/prompting/`](/wiki/prompting/index.md).
+   lives under [`prompting/`](./prompting/index.md).
 
 ## Producer-defined OKF types used in this bundle
 
