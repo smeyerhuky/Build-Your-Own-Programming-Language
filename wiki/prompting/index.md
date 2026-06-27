@@ -12,10 +12,10 @@ The per-chapter `exercises/cookbook.md` and `exercises/edge-cases.md`
 files are the raw material. This folder turns them into prompt
 patterns.
 
-- [Few-shot templates](/wiki/prompting/few-shot-templates.md) — for
+- [Few-shot templates](./few-shot-templates.md) — for
   asking an LLM to *add* something to the compiler (a keyword, a
   statement, an opcode).
-- [Chain-of-thought templates](/wiki/prompting/chain-of-thought-templates.md) —
+- [Chain-of-thought templates](./chain-of-thought-templates.md) —
   for asking an LLM to *debug* something the compiler does wrong.
 - [Negative-example catalog](/wiki/prompting/negative-example-catalog.md) —
   cross-chapter index of edge cases, tagged so you can pull a
