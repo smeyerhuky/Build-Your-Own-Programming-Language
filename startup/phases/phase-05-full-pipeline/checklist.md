@@ -18,7 +18,7 @@ each chapter using its `makefile` and `hello.java` as the test input.
 ```bash
 cd ch4
 make
-java j0 ../ch3/hello.java    # parses without syntax errors
+java ch4.j0 ../ch3/hello.java    # parses without syntax errors
 ```
 
 A successful parse produces no output (or a parse-success message
