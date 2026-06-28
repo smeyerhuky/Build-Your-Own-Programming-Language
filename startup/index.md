@@ -1,25 +1,72 @@
 ---
-type: Index
-title: "Getting Started — Build Your Own Programming Language"
-description: Practical onboarding guide. Start here to install prerequisites, set up your environment, build Ch 3, and choose your learning path.
-tags: [startup, onboarding, getting-started]
+type: Startup Bundle
+title: "Startup in a Box — Build Your Own Programming Language"
+description: A complete OKF onboarding bundle. Five phases walk a newcomer from zero tools to a fully working J0 compiler pipeline, with per-phase concept pages, tool cards, troubleshooting, and LLM-prompt patterns.
+tags: [startup, onboarding, okf, startup-in-a-box]
 timestamp: 2026-06-27T00:00:00Z
 ---
 
-# Getting Started
+# Startup in a Box
 
-This folder is your fastest path from a blank machine to a running J0
-compiler. Read the four pages in order, then follow the roadmap to
-explore the rest of the course.
+This bundle is a self-contained **Open Knowledge Format** onboarding
+suite for the *Build Your Own Programming Language* course. It is
+designed so an LLM (or a human) can walk the folder tree, load only
+what they need, and get from zero to a running J0 compiler without
+reading the whole book first.
 
-## Pages in this folder
+## How to read this bundle
+
+1. Start here.
+2. Open [`phases/index.md`](./phases/index.md) — five phases, each a
+   chapter-equivalent folder with overview, checklist, deep-dive,
+   concepts, and exercises.
+3. Per-phase exercises split into `cookbook.md` (positive patterns) and
+   `edge-cases.md` (negative / debugging).
+4. Cross-phase setup concepts (what J0 is, what a token stream is, how
+   the build system works) live under [`concepts/`](./concepts/index.md).
+5. Tool quick-ref cards (install, verify, common errors) live under
+   [`tools/`](./tools/index.md).
+6. LLM-prompt patterns for onboarding tasks live under
+   [`prompting/`](./prompting/index.md).
+
+## OKF types defined by this bundle
+
+| Type | Meaning |
+|---|---|
+| `Startup Bundle` | The bundle root (this file). |
+| `Index` | A directory `index.md` for navigation. |
+| `Phase` | A phase `index.md` — the startup equivalent of a chapter. |
+| `Phase Section` | `overview.md`, `checklist.md`, `deep-dive.md`, `concepts.md`. |
+| `Setup Concept` | A cross-phase concept page in `/startup/concepts/`. |
+| `Setup Tool` | A tool quick-ref card in `/startup/tools/`. |
+| `Setup Prompt Pattern` | An LLM-prompt template in `/startup/prompting/`. |
+| `Cookbook` | Per-phase positive examples (what a correct setup looks like). |
+| `Edge Case Catalog` | Per-phase negative examples (common failures and fixes). |
+| `Log` | The bundle's `log.md`. |
+
+## Quick-start paths
+
+**Zero to token stream (30 min):**
+Phase 1 → Phase 2 → Phase 3.
+
+**Zero to running interpreter (2 hrs):**
+All five phases, then follow the [roadmap](./roadmap.md) into Ch 4–9.
+
+**LLM-assisted setup:**
+Load `phases/index.md` + `prompting/setup-assistant.md`, then
+prompt your LLM with a phase description and your error message.
+
+## Existing quick-start pages
+
+The following pages from the initial startup guide remain valid
+entry points and are linked from the phase folders:
 
 | Page | What it covers |
 |---|---|
-| [Prerequisites](./prerequisites.md) | All software you must install before writing any code. |
-| [Environment setup](./environment-setup.md) | Clone the repo and verify every tool is wired up correctly. |
-| [First build](./first-build.md) | Compile and run the Ch 3 lexer against `hello.java`. |
-| [Roadmap](./roadmap.md) | Recommended learning path through all 17 chapters. |
+| [Prerequisites](./prerequisites.md) | All software you must install. |
+| [Environment setup](./environment-setup.md) | Clone the repo and verify tools. |
+| [First build](./first-build.md) | Run the Ch 3 lexer against `hello.java`. |
+| [Roadmap](./roadmap.md) | Learning path through all 17 chapters. |
 
 ## What you will build
 
