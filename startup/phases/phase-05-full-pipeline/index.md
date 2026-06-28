@@ -30,7 +30,7 @@ of the book in parallel.
 
 ## Exit criteria
 
-### Interpreter path (Ch 9)
+### Bytecode VM path (Ch 12 compile + Ch 11 run)
 
 ```bash
 cd ch9
