@@ -18,7 +18,7 @@ they matter; newer patch releases are generally fine.
 |---|---|---|
 | **JDK** | 11 | Compile and run all `.java` source files. |
 | **JFlex** | 1.8 | Generate `Yylex.java` from `javalex.l` (used in Ch 3 and every later chapter). |
-| **Yacc / BYacc** or **CUP** | any | Generate the parser from `j0gram.y` (Ch 4). `byacc -j` emits Java; CUP is the pure-Java alternative. |
+| **Yacc / BYacc** or **CUP** | any | Generate the parser from `j0gram.y` (Ch 4). `byacc -J` emits Java (some builds use `-j`); CUP is the pure-Java alternative. |
 
 ### Installing JDK
 
