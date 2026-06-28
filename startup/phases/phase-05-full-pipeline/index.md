@@ -33,9 +33,9 @@ of the book in parallel.
 ### Bytecode VM path (Ch 12 compile + Ch 11 run)
 
 ```bash
-cd ch9
+cd ch12
 make
-java j0 ../ch3/hello.java
+java ch12.j0 ../ch3/hello.java && (cd ../ch11 && make && java j0x ../ch3/hello.j0)
 # → hello, world
 ```
 
