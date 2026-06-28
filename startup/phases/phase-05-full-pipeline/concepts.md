@@ -14,8 +14,8 @@ The J0 compiler has two independent output paths after Ch 8:
 
 | Path | Chapters | Output | Runs via |
 |---|---|---|---|
-| VM interpreter | Ch 9 | Executed directly from TAC | `java j0machine` |
-| Bytecode | Ch 11–12 | `.j0` file (binary, magic `Jzero!!\0`) | `java j0machine` |
+| TAC generator | Ch 9 | Prints TAC instructions | `java ch9.j0` |
+| Bytecode | Ch 11–12 | `.j0` file (binary, magic `Jzero!!\0`) | `java j0x` |
 | x86-64 native | Ch 13 | AT&T-syntax assembly → linked binary | `./a.out` |
 
 Phase 5 targets the VM interpreter path (Ch 9) as the primary goal.
