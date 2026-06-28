@@ -18,7 +18,7 @@ Build-Your-Own-Programming-Language/
 ├── ch6/       Symbol tables (symtab.java)
 ├── ch7/       Type checker (typeinfo.java)
 ├── ch8/       Three-address code (tac.java)
-├── ch9/       Stack-VM interpreter (j0machine.java)
+├── ch9/       TAC generation (tac.java + address.java)
 ├── ch11/      Bytecode serialization + loader
 ├── ch12/      Bytecode code generator (byc.java)
 ├── ch13/      x86-64 native code generator (x64.java)
