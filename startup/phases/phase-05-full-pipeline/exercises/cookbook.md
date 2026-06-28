@@ -68,8 +68,8 @@ control-flow test.
 ```bash
 cd ch12
 make
-java j0 -bc ../ch3/hello.java     # generates hello.j0
-cd ch11 && java j0machine hello.j0
+java ch12.j0 ../ch3/hello.java     # generates ../ch3/hello.j0
+cd ../ch11 && make && java j0x ../ch3/hello.j0
 # expected: hello, world
 ```
 
